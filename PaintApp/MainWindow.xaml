@@ -1,0 +1,19 @@
+﻿<Window x:Class="PaintApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PaintApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <DockPanel>
+            <ToolBar Name="MyToolbar" DockPanel.Dock="Top" Height="50">
+                <RadioButton Name="LineButton" BorderBrush="#FF969696" Content="Line" Height="50" Width="80" Margin="0,-2,0,-3" GroupName="ShapeGroup" Click="LineButton_Click" IsChecked="True"/>
+                <RadioButton Name="EllipseButton" BorderBrush="#FF969696" Content="Ellipse" Height="50" Width="80" GroupName="ShapeGroup" Click="EllipseButton_Click"/>
+                <RadioButton x:Name="RectangleButton" BorderBrush="#FF969696" Content="Rectangle" Height="50" Width="80" GroupName="ShapeGroup" Click="RectangleButton_Click"/>
+            </ToolBar>
+            <Canvas x:Name="MyCanvas" Background="AntiqueWhite"  MouseDown="MyCanvas_MouseDown" MouseUp="MyCanvas_MouseUp" MouseMove="MyCanvas_MouseMove"/>
+        </DockPanel>
+    </Grid>
+</Window>

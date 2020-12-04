@@ -1,0 +1,15 @@
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\bin\Debug\PaintApp.exe.config
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\bin\Debug\PaintApp.exe
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\bin\Debug\PaintApp.pdb
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\obj\Debug\PaintApp.csprojAssemblyReference.cache
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\obj\Debug\MainWindow.g.cs
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\obj\Debug\App.g.cs
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\obj\Debug\PaintApp_MarkupCompile.cache
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\obj\Debug\PaintApp_MarkupCompile.lref
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\obj\Debug\MainWindow.baml
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\obj\Debug\PaintApp.g.resources
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\obj\Debug\PaintApp.Properties.Resources.resources
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\obj\Debug\PaintApp.csproj.GenerateResource.cache
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\obj\Debug\PaintApp.csproj.CoreCompileInputs.cache
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\obj\Debug\PaintApp.exe
+C:\Users\Bikalpa\source\repos\PaintApp\PaintApp\obj\Debug\PaintApp.pdb
