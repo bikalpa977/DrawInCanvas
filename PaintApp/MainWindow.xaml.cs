@@ -82,7 +82,7 @@ namespace PaintApp
         private void MyCanvas_MouseMove(object sender, MouseEventArgs e)
         {
             if (e.LeftButton == MouseButtonState.Pressed)
-            {
+            {                
                 end = e.GetPosition(this);
             }
         }
@@ -182,7 +182,17 @@ namespace PaintApp
 
         }
 
+        private double scale = 1;
+        private void MyCanvas_MouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            var element = (FrameworkElement)sender;
+            var position = e.GetPosition(element);
+            var matrix = Matrix.Identity;
 
+            scale = Math.Max(e.Delta > 0 ? scale * 1.1 : scale / 1.1, 1.0);
+            matrix.ScaleAt(scale, scale, position.X, position.Y-50);
 
+            ((MatrixTransform)element.LayoutTransform).Matrix = matrix;
+        }
     }
 }

@@ -13,7 +13,13 @@
                 <RadioButton Name="EllipseButton" BorderBrush="#FF969696" Content="Ellipse" Height="50" Width="80" GroupName="ShapeGroup" Click="EllipseButton_Click"/>
                 <RadioButton x:Name="RectangleButton" BorderBrush="#FF969696" Content="Rectangle" Height="50" Width="80" GroupName="ShapeGroup" Click="RectangleButton_Click"/>
             </ToolBar>
-            <Canvas x:Name="MyCanvas" Background="AntiqueWhite"  MouseDown="MyCanvas_MouseDown" MouseUp="MyCanvas_MouseUp" MouseMove="MyCanvas_MouseMove"/>
+            <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible">
+                <Canvas x:Name="MyCanvas" Background="AntiqueWhite"  MouseDown="MyCanvas_MouseDown" MouseUp="MyCanvas_MouseUp" MouseMove="MyCanvas_MouseMove" MouseWheel="MyCanvas_MouseWheel">
+                    <Canvas.LayoutTransform>
+                        <MatrixTransform/>
+                    </Canvas.LayoutTransform>
+                </Canvas>
+            </ScrollViewer>
         </DockPanel>
     </Grid>
 </Window>
